@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Friend Finder</h1>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Survey</strong></h3>
+          </div>
+          <div class="panel-body">
+            <form method="POST" role="form">
+              <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="photo">Link to Photo (Required)</label>
+                <input type="text" class="form-control" id="photo">
+              </div>
+              <div class="form-group">
+                <label for="q1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                <br>
+                <select class="input-large" id="q1">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q2">Generally speaking, you rely more on your experience than your imagination.</label>
+                <br>
+                <select class="input-large" id="q2">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                <br>
+                <select class="input-large" id="q3">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q4">You rarely do something just out of sheer curiosity.</label>
+                <br>
+                <select class="input-large" id="q4">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q5">People can rarely upset you.</label>
+                <br>
+                <select class="input-large" id="q5">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q6">It is often difficult for you to relate to other people’s feelings.</label>
+                <br>
+                <select class="input-large" id="q6">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q7">In a discussion, truth should be more important than people’s sensitivities.</label>
+                <br>
+                <select class="input-large" id="q7">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q8">You rarely get carried away by fantasies and ideas.</label>
+                <br>
+                <select class="input-large" id="q8">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                <br>
+                <select class="input-large" id="q9">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="q10">You feel more energetic after spending time with a group of people..</label>
+                <br>
+                <select class="input-large" id="q10">
+                  <option selected disabled=>Please Select</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Stongly Agree)</option>
+                </select>
+              </div>
+            </form>
+            <br>
+            <div class="text-left">
+              <button type="submit" class="btn btn-primary btn-md" id="add-btn"> Submit Survey </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    // Question: What does this code do?
+    $("#add-btn").on("click", function(event) {
+      event.preventDefault();
+      var newMatch = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: [
+          parseInt($("#q1").val()),
+          $("#q2").val(),
+          $("#q3").val(),
+          $("#q4").val(),
+          $("#q5").val(),
+          $("#q6").val(),
+          $("#q7").val(),
+          $("#q8").val(),
+          $("#q9").val(),
+          $("#q10").val()
+        ]
+      };
+      // Question: What does this code do??
+      $.post("/api/friends", newMatch)
+      .done(function(data) {
+        console.log(data);
+      });
+      $.get('api/friends').done(function(data, status) {
+        alert(JSON.stringify(data));
+      });
+    });
+  </script>
+</body>
+</html>
